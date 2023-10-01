@@ -1,0 +1,144 @@
+
+.sign_out {
+  
+    bottom:5%;
+    display: inline-block;
+  
+    
+    
+  }
+  
+  .btn-outline-cus{
+    border: 1px solid rgb(50,66,162);
+  }
+  .btn-outline-cus:hover{
+    background-color: rgb(50,66,162);
+    color:white
+  }
+  .nav_active{
+  background-color:white ; 
+  color: black !important;
+  
+  }
+  .nav_items td b,.sign_out a b{
+    display:none;
+  }
+  .bg-cus{
+    /* background-color:#19d4fa; */
+    background: linear-gradient(90deg, rgba(50,66,162,1) 45%, rgba(56,72,167,1) 62%, rgba(74,89,172,1) 97%);
+  }
+  .bg-cus-2{
+    background: #4a59ac;
+  }
+  .nav_items td a {
+    color:inherit
+  }
+  
+  .sticky_table{
+    position:sticky !important;
+     top:0; 
+    background-color:black;
+    
+  }
+  .border-cus{
+    border-radius:20px ;
+  }
+  .border-cus-low{
+    border-radius:10px ;
+  }
+  .border-cus-top{
+    border-radius:20px 0 0 0;
+  }
+  
+          /* For small devices */
+  
+   @media only screen and (max-height:900px) {
+  .lower_wrap {
+      height: 300px;
+      overflow-y:scroll;
+      overflow-x:hidden;
+     
+    }
+    .layer_border{
+    
+      background-color:#c9c9c9;height:100%;
+  
+  }
+  
+  .nav_items td ,.sign_out a 
+  {
+    text-align: center;
+    font-size:25px;
+    color:white;
+    background: linear-gradient(90deg, rgba(50,66,162,1) 45%, rgba(56,72,167,1) 62%, rgba(74,89,172,1) 97%);
+  
+  
+  }
+  .nav_items td b{
+  display:none;
+  }
+          }
+  
+            /* For large devices */
+  @media only screen and (min-height:900px) {
+  
+    .main{
+      height:100vh
+  }
+  .layer_border{
+      
+      background-color:#c9c9c9;height:100%;
+  
+     
+  }
+  .nav_items td 
+  {
+    text-align: center;
+    font-size:20px;
+    color:white;
+    transition:all .2s ease-in;
+  
+    
+  }
+  .sign_out a i{
+    text-align: center;
+    font-size:20px;
+    transition:all .2s ease-in
+  }
+  
+  .nav_items td:hover b,.sign_out:hover a b{
+  display:inline-block;
+  
+  }
+  .nav_items td:hover, .sign_out:hover{
+    text-align:center;
+    width:180px;
+    font-size:15px;
+    position:absolute;
+    background-color:white;
+    color:black;
+    z-index: 3;
+  }
+  .sign_out:hover{
+    text-align:right !important;
+    
+  }
+      .nav_wrapper{
+     background-color:blue;
+     border-radius: 25px 0 0 25px
+  }
+
+  .lower_wrap {
+  
+  border-radius:0px 0px 0px 25px
+  }
+  
+  .main{
+      height:100vh
+  }
+  .layer_border{
+      border-radius: 25px;
+      background-color:#c9c9c9;height:100%;
+      padding:10px
+  }
+  }
